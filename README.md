@@ -52,7 +52,7 @@ The alignments will be in `data/translations.alignment`
 
 ### Citation
 
-```tex
+```bib
 @inproceedings{panda-etal-2022-automatic,
     title = "Automatic Generation of Distractors for Fill-in-the-Blank Exercises with Round-Trip Neural Machine Translation",
     author = "Panda, Subhadarshi  and
