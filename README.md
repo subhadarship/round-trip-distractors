@@ -1,6 +1,8 @@
 # Distractor Generation Using Round Trip Neural Machine Translation
 
-Code for the paper Automatic Generation of Distractors for Fill-in-the-Blank Exercises with Round-Trip Neural Machine Translation
+Code for the paper [Automatic Generation of Distractors for Fill-in-the-Blank Exercises with Round-Trip Neural Machine Translation](https://aclanthology.org/2022.acl-srw.31.pdf)
+
+*Authors: Subhadarshi Panda, Frank Palma Gomez, Michael Flor, Alla Rozovskaya*
 
 ## Installation and getting started
 
@@ -48,4 +50,26 @@ The round trip translations along with the source sentence will be in `data/tran
 
 The alignments will be in `data/translations.alignment`
 
+### Citation
+
+```tex
+@inproceedings{panda-etal-2022-automatic,
+    title = "Automatic Generation of Distractors for Fill-in-the-Blank Exercises with Round-Trip Neural Machine Translation",
+    author = "Panda, Subhadarshi  and
+      Palma Gomez, Frank  and
+      Flor, Michael  and
+      Rozovskaya, Alla",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-srw.31",
+    pages = "391--401",
+    abstract = "In a fill-in-the-blank exercise, a student is presented with a carrier sentence with one word hidden, and a multiple-choice list that includes the correct answer and several inappropriate options, called distractors. We propose to automatically generate distractors using round-trip neural machine translation: the carrier sentence is translated from English into another (pivot) language and back, and distractors are produced by aligning the original sentence and its round-trip translation. We show that using hundreds of translations for a given sentence allows us to generate a rich set of challenging distractors. Further, using multiple pivot languages produces a diverse set of candidates. The distractors are evaluated against a real corpus of cloze exercises and checked manually for validity. We demonstrate that the proposed method significantly outperforms two strong baselines.",
+}
+```
+
+
 [LICENSE](https://github.com/subhadarship/round-trip-distractors/blob/main/LICENSE)
+
