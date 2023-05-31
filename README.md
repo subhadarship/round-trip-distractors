@@ -52,6 +52,13 @@ The alignments will be in `data/translations.alignment`
 
 ### Citation
 
+```
+Using Neural Machine Translation for Generating Diverse Challenging Exercises for Language Learners
+
+Authors: F. Palma Gomez and S. Panda and M. Flor and A. Rozovskaya
+In ACL. 2023.
+```
+
 ```bib
 @inproceedings{panda-etal-2022-automatic,
     title = "Automatic Generation of Distractors for Fill-in-the-Blank Exercises with Round-Trip Neural Machine Translation",
